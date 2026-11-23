@@ -15,18 +15,6 @@ diffraction data:
 A graphical interface supports each step and allows the crystal structure to be
 visualized and modified during the whole process.
 
-## Authors
-
-[A. Altomare](https://www.ic.cnr.it/staff/altomare-angela/),
-[C. Cuocci](https://www.ic.cnr.it/staff/cuocci-corrado/),
-C. Giacovazzo,
-[A. Moliterni](https://www.ic.cnr.it/staff/moliterni-anna/),
-[R. Rizzi](https://www.ic.cnr.it/staff/rizzi-rosanna/),
-[N. Corriero](https://www.ic.cnr.it/staff/corriero-nicola/),
-and [A. Falcicchio](https://www.ic.cnr.it/staff/falcicchio-aurelia/)
-
-Institute of Crystallography – CNR, via Amendola 122/o, 70126 Bari, Italy
-
 ## Citing EXPO
 
 If EXPO is used in the solution process of a structure whose results are published
@@ -43,6 +31,18 @@ Previous version:
 > *'EXPO2009: structure solution by powder data in direct and reciprocal space'* (2009).
 > *J. Appl. Cryst.* **42**, 1197–1202.
 > [https://doi.org/10.1107/S0021889809042915](https://doi.org/10.1107/S0021889809042915)
+
+## Authors
+
+[A. Altomare](https://www.ic.cnr.it/staff/altomare-angela/),
+[C. Cuocci](https://www.ic.cnr.it/staff/cuocci-corrado/),
+C. Giacovazzo,
+[A. Moliterni](https://www.ic.cnr.it/staff/moliterni-anna/),
+[R. Rizzi](https://www.ic.cnr.it/staff/rizzi-rosanna/),
+[N. Corriero](https://www.ic.cnr.it/staff/corriero-nicola/),
+and [A. Falcicchio](https://www.ic.cnr.it/staff/falcicchio-aurelia/)
+
+Institute of Crystallography – CNR, via Amendola 122/o, 70126 Bari, Italy
 
 ## Contact
 
