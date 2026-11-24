@@ -4,6 +4,36 @@
 
 All notable changes to EXPO, for each released version.
 
+## [2.3.15] - 2026-11-24
+
+### Fixed
+- Windows: crash at startup ("QOpenGLWidget: Failed to create wrapper texture") on systems without an adequate OpenGL driver, e.g. virtual machines without 3D acceleration. The software OpenGL renderer is used again as fallback.
+
+## [2.3.14] - 2026-11-24
+
+### Added
+- `CONTACTS` directive of `%sanneal`: prints in the output file the intermolecular contacts of each final model, listed as clashes, short contacts and contacts according to the overlap (sum of the van der Waals radii − distance), followed by a summary table with the number of contacts of each model. The contacts involving hydrogen atoms are skipped by default (`noh`).
+- Square root intensity scale for the pattern plot (Plot Style dialog), besides linear and logarithmic.
+- Vertical zoom of the curves with Ctrl+mouse wheel.
+- PDF manual installed with the program (`share/expo/docs/expo_manual.pdf`) and opened by Help > Documentation (PDF).
+
+### Changed
+- The background curve is shown while editing the background points.
+- The bars of the experimental peaks are drawn on top of the background.
+- The tools of the pattern toolbar are mutually exclusive, and clicking an active tool turns it off.
+- `SCALE` directive of `%data`: the counts are rescaled to the range [0, scale], with the minimum count at 0 (previously only the maximum was set to scale).
+- Simulated annealing: the cost function uses again the unweighted scale factor of the versions before 2.3.13.
+- Intensity extraction: the background follows a steep background at the low-angle edge of the range.
+- Help > Documentation (HTML), the Help buttons of the dialogs and the links of the About dialog open the new online documentation (https://iccnr-xtal.github.io/expo-docs/).
+- Help > Check for Updates reads `updates.json` from the documentation site; the old address is no longer reachable.
+- Help > Check for Updates on Windows now reads `updates.json`, as on Linux and macOS, instead of using the maintenance tool. Configure with `-DWINDOWS_IFW_UPDATER=ON` to go back to the old method.
+- The Windows installer can now install over a previous version in the same folder: after confirmation it uninstalls that version first, instead of asking for a different folder.
+
+### Fixed
+- 3D viewer showing only the background and the axis labels on Wayland with recent NVIDIA drivers.
+- `SCALE` directive of `%calculate_xpd` setting the FWHM instead of the scale.
+- Explore Trials dialog: "Explore trials non processed yet" corrected to "not processed yet".
+
 ## [2.3.13] - 2026-10-26
 
 ### Added

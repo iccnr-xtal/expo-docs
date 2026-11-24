@@ -1,21 +1,21 @@
 {
   "updates": {
     "windows": {
-      "latest-version": "2.3.13",
+      "latest-version": "2.3.15",
       "open-url": "https://iccnr-xtal.github.io/expo-docs/download.html",
-      "download-url": "https://cnrbox.cnr.it/owncloud/index.php/s/yvtrtjCra27YfJl/download",
+      "download-url": "https://cnrbox.cnr.it/owncloud/index.php/s/LPztykyTZt4Hkl9/download",
       "changelog": "https://iccnr-xtal.github.io/expo-docs/changelog.html"
     },
     "linux": {
-      "latest-version": "2.3.13",
+      "latest-version": "2.3.15",
       "open-url": "https://iccnr-xtal.github.io/expo-docs/download.html",
       "download-url": "https://iccnr-xtal.github.io/expo-docs/download.html",
       "changelog": "https://iccnr-xtal.github.io/expo-docs/changelog.html"
     },
     "osx": {
-      "latest-version": "2.3.13",
+      "latest-version": "2.3.15",
       "open-url": "https://iccnr-xtal.github.io/expo-docs/download.html",
-      "download-url": "https://cnrbox.cnr.it/owncloud/index.php/s/Be9zJbxpawZcqBj/download",
+      "download-url": "https://cnrbox.cnr.it/owncloud/index.php/s/KIGfsUZNnCicir1/download",
       "changelog": "https://iccnr-xtal.github.io/expo-docs/changelog.html"
     }
   }
