@@ -1,6 +1,6 @@
 # EXPO
 
-**EXPO** is a software package for **crystal structure determination from X-ray powder diffraction data**, developed at the **Institute of Crystallography (IC-CNR), Bari, Italy**. Designed to support both expert and non-expert crystallographers, EXPO provides an integrated environment for solving crystal structures from polycrystalline materials, including microcrystalline and nanocrystalline samples.
+**EXPO** is a software package for **crystal structure determination from X-ray powder diffraction data**, developed at the [Institute of Crystallography (IC-CNR), Bari, Italy](https://www.ic.cnr.it/). Designed to support both expert and non-expert crystallographers, EXPO provides an integrated environment for solving crystal structures from polycrystalline materials, including microcrystalline and nanocrystalline samples.
 
 EXPO covers the entire structure-solution workflow from powder diffraction data, including:
 
