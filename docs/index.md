@@ -1,36 +1,25 @@
 # EXPO
 
-**EXPO** is a software for **crystal structure solution from powder diffraction data**,
-developed at the [Institute of Crystallography (IC-CNR), Bari](https://www.ic.cnr.it/), Italy.
+**EXPO** is a software package for **crystal structure determination from X-ray powder diffraction data**, developed at the **Institute of Crystallography (IC-CNR), Bari, Italy**. Designed to support both expert and non-expert crystallographers, EXPO provides an integrated environment for solving crystal structures from polycrystalline materials, including microcrystalline and nanocrystalline samples.
 
-EXPO is able to perform all the steps of the structure solution process by powder
-diffraction data:
+EXPO covers the entire structure-solution workflow from powder diffraction data, including:
 
-- **indexing** of the diffraction pattern;
-- **space group determination**;
-- **estimation of the integrated intensities** of the reflections;
-- **structure solution** by Direct Methods and/or by direct-space approaches;
-- **model refinement** by the Rietveld technique.
+- **Indexing** of the diffraction pattern to determine the unit-cell parameters;
+- **Space-group determination** through systematic analysis of reflection conditions;
+- **Extraction of integrated reflection intensities** from the powder pattern;
+- **Structure solution** using Direct Methods and/or Simulated Annealing;
+- **Structure refinement** by the Rietveld method.
 
-A graphical interface supports each step and allows the crystal structure to be
-visualized and modified during the whole process.
+A powerful and intuitive graphical user interface, combined with advanced crystallographic algorithms, guides the user through each stage of the process, providing interactive visualization and editing of structural models, diffraction patterns, electron-density maps, and refinement results.
 
 ## Citing EXPO
 
-If EXPO is used in the solution process of a structure whose results are published
-in a scientific paper, please include the following reference:
+If you used **EXPO software**, the recommended citation, as requested by the developers, is:
 
 > Altomare, A., Cuocci, C., Giacovazzo, C., Moliterni, A., Rizzi, R., Corriero, N. and Falcicchio, A.
 > *'EXPO2013: a kit of tools for phasing crystal structures from powder data'* (2013).
 > *J. Appl. Cryst.* **46**, 1231–1235.
 > [https://doi.org/10.1107/S0021889813013113](https://doi.org/10.1107/S0021889813013113)
-
-Previous version:
-
-> Altomare, A., Camalli, M., Cuocci, C., Giacovazzo, C., Moliterni, A. and Rizzi, R.
-> *'EXPO2009: structure solution by powder data in direct and reciprocal space'* (2009).
-> *J. Appl. Cryst.* **42**, 1197–1202.
-> [https://doi.org/10.1107/S0021889809042915](https://doi.org/10.1107/S0021889809042915)
 
 ## Authors
 
